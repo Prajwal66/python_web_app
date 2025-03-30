@@ -8,7 +8,7 @@ pipeline {
       steps {
         sh 'mvn --version'
         echo "clone github repo"
-        sh 'git branch: 'main', url: "https://github.com/Prajwal66/python_web_app/"
+        sh 'git branch: 'main', url: 'https://github.com/Prajwal66/python_web_app/'
       }
     }
   }
